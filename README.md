@@ -3,7 +3,7 @@ Aceleração Python: Desafio semana 01
 
 # Desafio programação funcional
 
-Em uma empresa de telefonia existe um software responsável pela tarifação das ligações, ele recebe um relatório com as ligações e calcula o valor da fatura de cada cliente, baseado nas regras de tarifação diurna ou noturna.
+ Em uma empresa de telefonia existe um software responsável pela tarifação das ligações, ele recebe um relatório com as ligações e calcula o valor da fatura de cada cliente, baseado nas regras de tarifação diurna ou noturna.
 
 ```
 Tarifação:
@@ -26,11 +26,11 @@ records = [
 
 Com o algoritmo apropriado, retorne uma lista contendo um dicionário com duas chaves **source** e **total** para cada número de origem, ordenado pelo maior valor. O valor total deve ser arredondado em 2 casas decimais.
 
-**Observações:**
+#### Observações:
 * O calculo deve ser feito considerando o horário de cada minuto, por exemplo, uma mesma ligação pode ter tarifas diferentes se iniciar no período diurno e for finalizada no período noturno, ou seja, cada minuto deve ser tarifado conforme o seu horário inicial.
 * Para esse desafio considera apenas ligações que iniciam e terminam no mesmo dia
 
-**Exemplo de retorno**
+#### Exemplo de retorno
 ```
 [
     {'source': '48-996355555', 'total': 234.89},
